@@ -1,10 +1,16 @@
 import React from 'react'
 import Itemcard from './Itemcard'
+import { data } from '../Mendata'
 
 const CartItems = () => {
   return (
-    <div className='mt-10 ml-20'>
-        <Itemcard/>
+    <div className='flex flex-wrap gap-4 mt-10 ml-28'>
+      {
+        data.map((item)=>(
+          <Itemcard url={item.url} name={item.name} price={item.price} des={item.desc} tag={item.tags} />
+        ))
+      }
+        
     </div>
   )
 }

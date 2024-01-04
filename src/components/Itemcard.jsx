@@ -1,13 +1,14 @@
 import React from 'react'
-import img1 from '../assets/male/11502439720187-INVICTUS-Brown-Slim-Fit-Single-Breasted-Smart-Casual-Blazer-791502439719991-1.jpg'
 
-const Itemcard = () => {
+
+const Itemcard = (props) => {
   return (
-    <div className='w-[200px] p-2 font-bold flex flex-col rounded-lg bg-white '>
-         <img className='w-auto transition-all duration-500 ease-in-out rounded-md hover:scale-110 cursor-grab' src={img1} alt='jacket'/> 
+    <div className='w-[300px] p-2 font-bold flex flex-col rounded-lg bg-white '>
+         <img className='w-auto transition-all duration-500 ease-in-out rounded-md hover:scale-110 cursor-grab' src={props.url} alt='jacket'/> 
          <div className='mt-5'>
-            <h1>Jacket</h1>
-            <span>500</span>
+            <h1 className='text-sm'>{props.name}</h1>
+            <p className='text-sm font-normal'>{props.des.slice(0,30)}...</p>
+            <span>₹ {props.price}</span>
          </div>
     </div>
   )
