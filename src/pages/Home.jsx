@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='w-full mt-0 bg-red-500'  >
+    <div className='w-full mt-0 '  >
         <Navbar/>
         
         <div className='flex justify-center gap-5 mt-40'>

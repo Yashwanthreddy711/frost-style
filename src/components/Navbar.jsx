@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='p-4'>
         <h1 className='text-2xl font-bold'>FrostStyle.</h1>
         </div>    
-        <div className='flex gap-3 mt-4 lg:mr-20'>
+        <div className='flex gap-3 mt-4 md:mr-20'>
             <CgProfile size={25}/>
             <IoBagHandleOutline size={25}/>
 

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Itemcard = (props) => {
   return (
-    <div className='w-[300px] p-2 font-bold flex flex-col rounded-lg bg-white '>
+    <div id={props.id} className='w-[300px] p-2 font-bold flex flex-col rounded-lg bg-white '>
          <img className='w-auto transition-all duration-500 ease-in-out rounded-md hover:scale-110 cursor-grab' src={props.url} alt='jacket'/> 
          <div className='mt-5'>
             <h1 className='text-sm'>{props.name}</h1>
