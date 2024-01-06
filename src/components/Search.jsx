@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Search = () => {
+const Search = ({onInputChange}) => {
+  const [searchValue, setSearchValue] = useState('');
+
+  const handleInputChange = (e) => {
+    const value = e.target.value;
+    setSearchValue(value);
+    onInputChange(value);
+  };
+  
   return (
     <div className='flex justify-center w-full mt-10 text-red-500'>
-        <input className='h-[20px] w-[80%] md:h-[40px] rounded-md p-4 md:pl-10 border-black border-2 text-base md:text-lg ' placeholder='Enter items to search'/>
+        <input className='h-[20px] w-[80%] md:h-[40px] rounded-md p-4  md:pl-10 border-black border-2 text-base md:text-lg ' onChange={handleInputChange} value={searchValue} placeholder='Enter items to search'/>
     </div>
   )
 }
