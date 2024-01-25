@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
+import Cart from '../components/Cart'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
           <h1>Top Picks</h1>
           
         </div>
+        <Cart/>
         <Footer/>
     </div>
   )

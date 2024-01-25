@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Menwear from './pages/Menwear';
 import Womenwear from './pages/Womenwear';
+import Itempage from "./pages/Itempage";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/mens-wear" element={<Menwear/>}/>
           <Route path="/women-wear" element={<Womenwear/>}/>
+          <Route path="/item/:id" element={<Itempage/>}/>
         </Routes>
       </Router>
     </div>

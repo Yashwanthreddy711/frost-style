@@ -4,6 +4,7 @@ import Search from "../components/Search";
 import { data } from "../Mendata";
 import Itemcard from "../components/Itemcard";
 import { PropagateLoader } from "react-spinners";
+import Cart from "../components/Cart";
 
 const Menwear = () => {
   var mini = 999999;
@@ -47,6 +48,7 @@ const Menwear = () => {
     <div className="w-full h-screen bg-white">
       <Navbar />
       <Search onInputChange={handleSearchInputChange} />
+      <Cart/>
       <div className="flex justify-center gap-1 mt-10 md:gap-2 ">
         <button
           id="Jackets"
@@ -102,6 +104,7 @@ const Menwear = () => {
                 data.map((item) => (
                   <Itemcard
                     key={item.id}
+                    id={item.id}
                     url={item.url}
                     name={item.name}
                     price={item.price}
@@ -115,6 +118,7 @@ const Menwear = () => {
                   .map((item) => (
                     <Itemcard
                       key={item.id}
+                      id={item.id}
                       url={item.url}
                       name={item.name}
                       price={item.price}
@@ -130,6 +134,7 @@ const Menwear = () => {
                 .map((item) => (
                   <Itemcard
                     key={item.id}
+                    id={item.id}
                     url={item.url}
                     name={item.name}
                     price={item.price}
@@ -146,6 +151,7 @@ const Menwear = () => {
                 .map((item) => (
                   <Itemcard
                     key={item.id}
+                    id={item.id}
                     url={item.url}
                     name={item.name}
                     price={item.price}
@@ -162,6 +168,7 @@ const Menwear = () => {
                   filteredItems.map((item) => (
                     <Itemcard
                       key={item.id}
+                      id={item.id}
                       url={item.url}
                       name={item.name}
                       price={item.price}
@@ -175,6 +182,7 @@ const Menwear = () => {
                     .map((item) => (
                       <Itemcard
                         key={item.id}
+                        id={item.id}
                         url={item.url}
                         name={item.name}
                         price={item.price}
@@ -190,6 +198,7 @@ const Menwear = () => {
                   .map((item) => (
                     <Itemcard
                       key={item.id}
+                      id={item.id}
                       url={item.url}
                       name={item.name}
                       price={item.price}
@@ -206,6 +215,7 @@ const Menwear = () => {
                   .map((item) => (
                     <Itemcard
                       key={item.id}
+                      id={item.id}
                       url={item.url}
                       name={item.name}
                       price={item.price}
