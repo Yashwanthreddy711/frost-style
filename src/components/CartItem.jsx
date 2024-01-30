@@ -20,6 +20,7 @@ export const CartItem = (props) => {
         />
         <div className="">
           <h1 className="font-bold text-gray-900 ">{props.name}</h1>
+          
           <span className="font-bold text-green-500">₹ {props.price}</span>
         </div>
       </div>

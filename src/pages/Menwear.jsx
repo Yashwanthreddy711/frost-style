@@ -5,6 +5,9 @@ import { data } from "../Mendata";
 import Itemcard from "../components/Itemcard";
 import { PropagateLoader } from "react-spinners";
 import Cart from "../components/Cart";
+import Emptypage from "../components/Emptypage";
+
+
 
 const Menwear = () => {
   var mini = 999999;
@@ -98,6 +101,7 @@ const Menwear = () => {
         {loading ? (
           //if the search is not empty
           filteredItems.length===0 ? (
+            searchInput.length!==0 ? <Emptypage/>:(
             category === "" ? (
               sliderinput === mini ? (
                 //printwholedata
@@ -113,9 +117,11 @@ const Menwear = () => {
                   />
                 ))
               ) : (
+                
                 data
-                  .filter((item) => item.price <= sliderinput)
-                  .map((item) => (
+                  .filter((item) => item.price <= sliderinput).length>0?(
+                  data
+                  .filter((item) => item.price <= sliderinput).map((item) => (
                     <Itemcard
                       key={item.id}
                       id={item.id}
@@ -125,13 +131,14 @@ const Menwear = () => {
                       des={item.desc}
                       tag={item.tags}
                     />
-                  ))
+                  ))):<Emptypage/>
               )
             ) : sliderinput === "" ? (
               //filter by category
               data
-                .filter((item) => item.tags === category)
-                .map((item) => (
+                .filter((item) => item.tags === category).length>0 ?(
+                  data
+                  .filter((item) => item.tags === category).map((item) => (
                   <Itemcard
                     key={item.id}
                     id={item.id}
@@ -141,7 +148,7 @@ const Menwear = () => {
                     des={item.desc}
                     tag={item.tags}
                   />
-                ))
+                ))):<Emptypage/>
             ) : (
               //filterbyprice and category
               data
@@ -160,7 +167,7 @@ const Menwear = () => {
                   />
                 ))
             )
-          ) : (
+          )) : (
             //if the search is not empty
               category === "" ? (
                 sliderinput === mini ? (
