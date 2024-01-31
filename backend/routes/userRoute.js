@@ -2,10 +2,8 @@ const express =require('express');
 const User = require('../models/User');
 const router=express.Router();
 
-router.get('/',(req,res)=>{
-    res.send('Hello world');
-})
-router.post('/register',async(req,res)=>{
+
+router.post('/',async(req,res)=>{
       const data=req.body;
       try{
             const userData=new User(data);
@@ -36,6 +34,7 @@ router.get('/users',async(req,res)=>{
 
 router.post('/login',(req,res)=>{
       const {email,password}=req.body;
+      console.log(email,password);
        User.findOne({email:email}).then((user)=>{
             if(user){
                   if(user.password===password){

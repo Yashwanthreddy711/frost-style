@@ -1,7 +1,10 @@
 const mongoose=require('mongoose')
 
-const mongourl='mongodb+srv://yashwanthreddy:yashwanth123@cluster0.ldti7yy.mongodb.net/?retryWrites=true&w=majority'
-mongoose.connect(mongourl,{
+const dotenv=require('dotenv')
+dotenv.config();
+
+
+mongoose.connect(process.env.mongourl,{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
