@@ -20,11 +20,11 @@ const Menwear = () => {
       mini = data[i].price;
     }
   }
-  const [category, setCategory] = useState("");
+  const [category, setCategory] = useState("Jackets");
   const [loading, setLoading] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
-  const [sliderinput, setsliderinput] = useState(mini);
+  const [sliderinput, setsliderinput] = useState(maxi);
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
@@ -52,7 +52,9 @@ const Menwear = () => {
       <Navbar />
       <Search onInputChange={handleSearchInputChange} />
       <Cart/>
-      <div className="flex justify-center gap-1 mt-10 md:gap-2 ">
+      <div className="flex flex-wrap justify-center gap-1 mt-10 md:gap-2">
+
+        <div className="flex gap-1 md:gap-2">
         <button
           id="Jackets"
           onClick={handlecategory}
@@ -86,19 +88,127 @@ const Menwear = () => {
         >
           Sweatshirts
         </button>
+        </div>
 
+            <div className="flex items-center gap-4 ml-5">
         <input
-          onChange={handlesliderinput}
-          className="w-40 h-20 "
-          type="range"
-          max={maxi}
-          min={mini}
-        />
-        <p>{sliderinput}</p>
+  onChange={handlesliderinput}
+  className="h-[8px] rounded-full appearance-none bg-slate-200 range-thumb-black"
+  type="range"
+  defaultValue={50}
+  max={maxi}
+  min={mini}
+  style={{
+    WebkitAppearance: 'none',
+    
+  }}
+/>
+        <p>₹{sliderinput}</p>
+        </div>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mt-10 ml-4 mr-4 md:ml-10">
-        {loading ? (
+        {
+          loading ?(
+                
+            filteredItems.length===0 ? (
+              //if the search input is empty
+                category===""?(
+                 //if the category is empty
+                      
+                    //displaying the data based on the price  
+                    data.filter((item)=>item.price<=sliderinput).length>0 ? (
+                         data.filter((item)=>item.price<=sliderinput).map((item) => (
+                          <Itemcard
+                            key={item.id}
+                            id={item.id}
+                            url={item.url}
+                            name={item.name}
+                            price={item.price}
+                            des={item.desc}
+                            tag={item.tags}
+                          />
+                        ))
+                    ):(
+                      <Emptypage/>
+                    )
+                    ):(
+                      // if the user selected some caretory but the search is empty
+
+                      data.filter((item)=>item.tags===category && item.price<=sliderinput).length>0 ?(
+                        data.filter((item)=>item.tags===category && item.price<=sliderinput).map((item) => (
+                          <Itemcard
+                            key={item.id}
+                            id={item.id}
+                            url={item.url}
+                            name={item.name}
+                            price={item.price}
+                            des={item.desc}
+                            tag={item.tags}
+                          />
+                        ))
+                          
+                      ):(
+                        <Emptypage/>
+
+                      )
+                    )
+                    
+                    )
+  
+                
+            :(
+              //if the search input is not empty
+
+              category==="" ?(
+                 //if the category is empty
+                 filteredItems.filter((item)=>item.price<=sliderinput).length>0 ?(
+                  filteredItems.filter((item)=>item.tags===category && item.price<=sliderinput).map((item) => (
+                    <Itemcard
+                      key={item.id}
+                      id={item.id}
+                      url={item.url}
+                      name={item.name}
+                      price={item.price}
+                      des={item.desc}
+                      tag={item.tags}
+                    />
+                  ))
+                 ):
+                 (
+                    <Emptypage/>
+                 )
+
+              ):(
+                //if the categoty is not empty
+                filteredItems.filter((item)=>item.tags===category && item.price<=sliderinput).length>0 ?(
+                  filteredItems.filter((item)=>item.tags===category && item.price<=sliderinput).map((item) => (
+                    <Itemcard
+                      key={item.id}
+                      id={item.id}
+                      url={item.url}
+                      name={item.name}
+                      price={item.price}
+                      des={item.desc}
+                      tag={item.tags}
+                    />
+                  ))
+                 ):
+                 (
+                    <Emptypage/>
+                 )
+
+              )
+               
+            )
+          ) : 
+          (
+            
+          <PropagateLoader color="#000" className="flex justify-center" />
+
+          )
+        }
+        {/* {loading ? (
           //if the search is not empty
           filteredItems.length===0 ? (
             searchInput.length!==0 ? <Emptypage/>:(
@@ -237,7 +347,7 @@ const Menwear = () => {
           )
         ) : (
           <PropagateLoader color="#36d7b7" className="flex justify-center" />
-        )}
+        )} */}
       </div>
     </div>
   );

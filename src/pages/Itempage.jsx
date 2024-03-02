@@ -2,6 +2,8 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import { addtoCart } from '../redux/Slices/Cartslice';
+import Navbar from '../components/Navbar';
+import Cart from '../components/Cart';
 
 const Itempage = () => {
   const location = useLocation();
@@ -9,10 +11,14 @@ const Itempage = () => {
   const { id, url, name, price, des } = location.state;
 
   return (
-    <div className='w-full md:w-[80%] h[80%] md:m-20 justify-center items-center sm:flex'>
+    <div className='w-full h-full'>
+
+    <Navbar/>
+    <Cart/>
+    <div className='w-full md:w-[80%]  mx-auto md:m-20 justify-center items-center sm:flex'>
       <div className='flex-wrap justify-center w-auto h-full gap-20 border-2 rounded-md md:p-10 md:flex'>
         <div>
-          <img src={url} alt='product_image' />
+          <img src={url} className='w-[300px] h-[400px] rounded-md hover:scale-110 transition-all duration-300 ease-in-out' alt='product_image' />
         </div>
         <div className='flex flex-col items-center w-auto gap-5 '>
           <h1 className='mt-5 text-2xl font-bold leading-6 font-assistant text-rgb-40-44-63'>{name}</h1>
@@ -40,6 +46,7 @@ const Itempage = () => {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }

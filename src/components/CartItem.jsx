@@ -11,7 +11,7 @@ import {
 export const CartItem = (props) => {
   const dispatch = useDispatch();
   return (
-    <div className="w-full h-[80px] flex p-2 border-2 border-green-300 shadow-md rounded-lg bg-white justify-between">
+    <div className="w-full h-[80px] flex p-2 border-2 border-gray-200 shadow-md rounded-lg bg-white justify-between">
       <div className="flex items-center justify-between gap-2">
         <img
           src={props.url}
@@ -21,7 +21,7 @@ export const CartItem = (props) => {
         <div className="">
           <h1 className="font-bold text-gray-900 ">{props.name}</h1>
           
-          <span className="font-bold text-green-500">₹ {props.price}</span>
+          <span className="font-bold text-black">₹ {props.price}</span>
         </div>
       </div>
       <div className="flex flex-col justify-center ">
@@ -54,7 +54,7 @@ export const CartItem = (props) => {
                 })
               )
             }
-            className="p-1 text-xl transition-all ease-linear border-2 border-gray-600 rounded-md cursor-pointer hover:text-white hover:bg-green-500 hover:border-none"
+            className="p-1 text-xl transition-all ease-linear border-2 border-gray-600 rounded-md cursor-pointer hover:text-white hover:bg-black hover:border-none"
           />
           <span>{props.qty}</span>
           <AiOutlineMinus
@@ -69,7 +69,7 @@ export const CartItem = (props) => {
                 })
               )
             }
-            className="p-1 text-xl transition-all ease-linear border-2 border-gray-600 rounded-md cursor-pointer hover:text-white hover:bg-green-500 hover:border-none"
+            className="p-1 text-xl transition-all ease-linear border-2 border-gray-600 rounded-md cursor-pointer hover:text-white hover:bg-black hover:border-none"
           />
         </div>
         <h3>Items:</h3>
