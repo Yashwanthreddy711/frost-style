@@ -26,10 +26,10 @@ const VerifyOtp = () => {
     }
   };
   return (
-    <div className="flex items-center justify-center w-full h-screen">
+    <div className="flex items-center justify-center w-full h-screen px-5">
       <form
         onSubmit={handleVerifyOtp}
-        className="bg-white rounded-lg p-5 border-2 border-gray-200 shadow-lg flex flex-col gap-3 w-[30%]  text-sm"
+        className="bg-white rounded-lg p-5 border-2 border-gray-200 shadow-lg flex flex-col gap-3 w-full md:w-[30%]  text-sm"
       >
         <label>Enter OTP</label>
         <input

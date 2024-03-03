@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { RxCross2 } from "react-icons/rx";
 import { CartItem } from './CartItem'
 import { useDispatch, useSelector } from 'react-redux';

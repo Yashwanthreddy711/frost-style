@@ -39,12 +39,12 @@ const Orderpage = () => {
     e.preventDefault();
 
     // Access the form data
-    const formData = {
-      firstName,
-      contact,
-      email,
-      address,
-    };
+    // const formData = {
+    //   firstName,
+    //   contact,
+    //   email,
+    //   address,
+    // };
 
     // You can do something with the formData, e.g., store it, send it to a server, etc.
     //console.log(formData);
@@ -57,9 +57,9 @@ const Orderpage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <div className="p-8 w-[60%] mx-auto bg-white rounded shadow-md border-2 border-gray-200">
-        <h1 className="mb-4 text-3xl font-bold text-black">User Information Form</h1>
+    <div className="flex items-center justify-center min-h-screen px-5">
+      <div className="md:p-8 p-4 w-full  md:w-[60%] mx-auto bg-white rounded shadow-md border-2 border-gray-200">
+        <h1 className="mb-4 text-2xl font-bold text-black md:text-3xl">User Information Form</h1>
 
         <form onSubmit={handleSubmit}>
           <div className="mb-4">

@@ -1,12 +1,13 @@
-import React, { useState } from 'react'
-import { CgProfile } from "react-icons/cg";
+import React from 'react'
+// import { CgProfile } from "react-icons/cg";
 import { IoBagHandleOutline } from "react-icons/io5";
-import Cart from './Cart';
-import { useSelector,useDispatch } from 'react-redux';
+// import Cart from './Cart';
+import {useDispatch } from 'react-redux';
 import { changeCartstate } from '../redux/Slices/Cartslice';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
 const dispatch=useDispatch();
+// const auth=useSelector((state)=>state.auth.isAuth);
   return (
     <>
     <div className='flex items-center justify-between w-full h-auto '>
@@ -26,7 +27,9 @@ const dispatch=useDispatch();
            </Link>
           
           </div>
-            <button className='w-auto h-8 px-2 text-white bg-black rounded-md'>Login</button>
+          <Link to="/login">
+            <button className='w-auto h-8 px-2 text-white bg-black rounded-md'>Log out</button>
+            </Link>
             {/* <CgProfile size={25}/> */}
             <IoBagHandleOutline size={25} className='cursor-pointer' onClick={()=>dispatch(changeCartstate())}/>
         </div>

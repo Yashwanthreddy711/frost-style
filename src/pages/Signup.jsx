@@ -35,7 +35,7 @@ const Signup = () => {
       <div className="hidden md:block"  >
         <img src={pic6} className="w-[500px] h-[600px] rounded-l-lg " alt="login pic"/>
       </div>
-      <div className="flex flex-col w-[400px] md:w-[600px] px-5 gap-20  ">
+      <div className="flex flex-col w-[400px] h-full md:w-[600px] px-5 gap-20  ">
         <div className="text-center">
         <h1 className="mt-10 text-5xl font-bold tracking-tighter text-black">Sign Up</h1>
         <h1 className="mt-5 ">Create your Account</h1>
@@ -50,7 +50,7 @@ const Signup = () => {
           type="name"
           name="username"
           id="username"
-          className="px-3  border-gray-500 outline-none border-b-[1px]"
+          className="px-5  border-gray-500 outline-none border-b-[1px]"
           autoComplete="off"
           required
           value={name}
@@ -79,9 +79,12 @@ const Signup = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
        
+      
+
+      
         <button
           type="submit"
-          className="px-3 py-2 my-4 mx-auto w-[60%] text-white bg-black rounded-md outline-none "
+          className="px-3 py-2 my-4 mx-auto  w-[60%] text-white bg-black rounded-md outline-none "
         >
           SignUp{" "}
         </button>
@@ -91,6 +94,7 @@ const Signup = () => {
             Login to your account
           </Link>
         </p>
+        
       </form>
 
       </div>

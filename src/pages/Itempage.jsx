@@ -28,11 +28,11 @@ const Itempage = () => {
             <h1 className='text-base font-bold leading-4 text-center'>SELECT SIZE</h1>
             <div className='gap-2 mt-5'>
                     <div className='flex gap-2'>
-                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-blue-500 transition-all ease-linear bg-gray-100'>S</h1>
-                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-blue-500 transition-all ease-linear bg-gray-100'>M</h1>
-                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-blue-500 transition-all ease-linear bg-gray-100'>L</h1>
-                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-blue-500 transition-all ease-linear bg-gray-100'>XL</h1>
-                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-blue-500 transition-all ease-linear bg-gray-100'>XXL</h1>
+                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-black transition-all ease-linear bg-gray-100'>S</h1>
+                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-black transition-all ease-linear bg-gray-100'>M</h1>
+                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-black transition-all ease-linear bg-gray-100'>L</h1>
+                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-black transition-all ease-linear bg-gray-100'>XL</h1>
+                       <h1 className='border-2 w-[35px] h-[35px] items-center flex justify-center rounded-full hover:border-blacktransition-all ease-linear bg-gray-100'>XXL</h1>
                     </div>
                    </div>
           </div>
@@ -40,7 +40,7 @@ const Itempage = () => {
             onClick={() => {
               dispatch(addtoCart({ id, url, name, price, qty: 1 }));
             }}
-            className='flex items-center justify-center w-40 h-12 mt-10 transition-all ease-in-out bg-gray-100 border-2 rounded-md hover:bg-blue-500 '
+            className='flex items-center justify-center w-40 h-12 mt-10 transition-all ease-in-out bg-gray-100 border-2 rounded-md hover:text-white hover:bg-black '
           >
             Add to Cart
           </button>
