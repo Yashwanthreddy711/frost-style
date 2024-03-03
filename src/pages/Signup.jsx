@@ -14,7 +14,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
 
-    const res = await axios.post(`http://localhost:3001/api/signup`, {
+    const res = await axios.post(`https://frost-style-backend.onrender.com/api/signup`, {
       name,
       email,
       password,

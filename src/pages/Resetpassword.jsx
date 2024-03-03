@@ -12,7 +12,7 @@ const ResetPassword = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.put("http://localhost:3001/api/reset-password", {
+      const res = await axios.put("https://frost-style-backend.onrender.com/api/reset-password", {
         email,
       });
       const data = await res.data;
