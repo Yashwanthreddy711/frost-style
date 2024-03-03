@@ -22,7 +22,7 @@ const Menwear = () => {
   }
   const [category, setCategory] = useState("Jackets");
   const [loading, setLoading] = useState(false);
-  const [searchInput, setSearchInput] = useState("");
+  //const [searchInput, setSearchInput] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
   const [sliderinput, setsliderinput] = useState(maxi);
   useEffect(() => {
@@ -32,7 +32,7 @@ const Menwear = () => {
   }, [category]);
 
   const handleSearchInputChange = (value) => {
-    setSearchInput(value);
+    //setSearchInput(value);
     const filtered = data.filter((item) =>
       item.desc.toLowerCase().includes(value.toLowerCase())
     );
