@@ -61,7 +61,7 @@ const Navbar = () => {
           <h1 className="fixed left-0 block pl-[16px] text-2xl font-bold top-[16px] text-black md:hidden ">FrostStyle.</h1>
         </div>
             
-            <div className=" fixed right-8 block pr-5 top-[16px] text-black md:hidden">
+            <div className=" fixed right-12 block pr-5 top-[16px] text-black md:hidden">
             <IoBagHandleOutline
               size={25}
               className="cursor-pointer"
