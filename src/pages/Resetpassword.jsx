@@ -40,7 +40,7 @@ const ResetPassword = () => {
           id="email"
           className="px-3 py-2 text-gray-600 border rounded-md outline-none focus:border-black"
           autoComplete="off"
-          placeholder="johndoe@gmail.com"
+          placeholder="Enter your email"
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}

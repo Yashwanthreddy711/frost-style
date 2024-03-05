@@ -34,6 +34,7 @@ export const CartItem = (props) => {
                   url: props.url,
                   name: props.name,
                   price: props.price,
+                  size:props.size,
                   qty: props.qty,
                 })
               )
@@ -50,6 +51,7 @@ export const CartItem = (props) => {
                   url: props.url,
                   name: props.name,
                   price: props.price,
+                  size:props.size,
                   qty: props.qty,
                 })
               )
@@ -65,6 +67,7 @@ export const CartItem = (props) => {
                   url: props.url,
                   name: props.name,
                   price: props.price,
+                  size:props.size,
                   qty: props.qty,
                 })
               )

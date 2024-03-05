@@ -21,12 +21,12 @@ const Cart = ({cartstate}) => {
       {
             cartItems.length>0 ?( cartItems.map((item) => (
               <CartItem 
-                  
                  key={item.id}
                  id={item.id}
                  url={item.url}
                  name={item.name}
                  qty={item.qty}
+                 size={item.size}
                  price={item.price}
                  />
           ))):<h1 className='flex items-center justify-center text-xl font-bold text-center text-gray-800'>Your Cart is Empty</h1>

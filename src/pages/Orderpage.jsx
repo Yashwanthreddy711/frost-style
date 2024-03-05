@@ -20,6 +20,7 @@ const Orderpage = () => {
     const headers={
        "Content-Type":"application/json"
     }
+    console.log(cartItems);
     const response=await fetch("https://frost-style-backend.onrender.com/api/checkout",{
       method:"POST",
       headers:headers,
@@ -59,6 +60,10 @@ const Orderpage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen px-5">
       <div className="md:p-8 p-4 w-full  md:w-[60%] mx-auto bg-white rounded shadow-md border-2 border-gray-200">
+        <div className='flex items-center justify-center'>
+        <h1 className='text-red-500 '>*Use this account number:4000 0035 6000 0008</h1>
+        </div>
+        
         <h1 className="mb-4 text-2xl font-bold text-black md:text-3xl">User Information Form</h1>
 
         <form onSubmit={handleSubmit}>

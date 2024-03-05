@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { loginUser } from "../redux/Slices/AuthSlice";
 import toast from "react-hot-toast";
-import pic6 from '../assets/pic6.jpg'
+// import pic6 from '../assets/pic6.jpg'
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -50,7 +50,7 @@ const Login = () => {
     <div className="flex w-auto px-5 ">
       <div className="flex w-full md:w-[60%] mx-auto mt-10 border rounded-lg shadow-lg">
       <div className="hidden md:block" >
-        <img src={pic6} className=" w-[500px] h-[600px] rounded-l-lg " alt="login pic"/>
+        <img src='https://images.pexels.com/photos/3584758/pexels-photo-3584758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className=" w-[500px] h-[600px] rounded-l-lg " alt="login pic"/>
       </div>
       <div className="flex flex-col w-[400px] md:w-[600px] px-5 gap-20  ">
         <div className="text-center">

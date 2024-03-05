@@ -38,7 +38,7 @@ const VerifyOtp = () => {
           id="otp"
           className="px-3 py-2 text-gray-600 border rounded-md outline-none focus:border-black"
           autoComplete="off"
-          placeholder="1234"
+          placeholder="4 digit otp"
           required
           value={otp}
           onChange={(e) => setOtp(e.target.value)}
