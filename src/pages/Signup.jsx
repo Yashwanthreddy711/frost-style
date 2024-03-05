@@ -30,8 +30,8 @@ const Signup = () => {
   };
 
   return (
-    <div className="flex w-auto ">
-      <div className="flex mx-auto mt-10 border rounded-lg shadow-lg">
+    <div className="flex w-auto px-5 ">
+      <div className="flex w-full md:w-[60%]  mx-auto mt-10 border rounded-lg shadow-lg">
       <div className="hidden md:block"  >
         <img src={pic6} className="w-[500px] h-[600px] rounded-l-lg " alt="login pic"/>
       </div>
@@ -50,7 +50,7 @@ const Signup = () => {
           type="name"
           name="username"
           id="username"
-          className="px-5  border-gray-500 outline-none border-b-[1px]"
+          className="px-1 border-gray-500 outline-none border-b-[1px]"
           autoComplete="off"
           required
           value={name}
@@ -61,7 +61,7 @@ const Signup = () => {
           type="email"
           name="email"
           id="email"
-          className="px-3 mt-[-6px] border-gray-500 outline-none border-b-[1px]"
+          className="px-1 mt-[-6px] border-gray-500 outline-none border-b-[1px]"
           autoComplete="off"
           required
           value={email}
@@ -72,7 +72,7 @@ const Signup = () => {
           type="password"
           name="password"
           id="password"
-          className="px-3 mt-[-5px] border-gray-500 outline-none border-b-[1px]"
+          className="px-1 mt-[-5px] border-gray-500 outline-none border-b-[1px]"
           autoComplete="off"
           required
           value={password}

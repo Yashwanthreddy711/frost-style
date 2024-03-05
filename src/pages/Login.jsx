@@ -47,8 +47,8 @@ const Login = () => {
   };
 
   return (
-    <div className="flex w-auto ">
-      <div className="flex mx-auto mt-10 border rounded-lg shadow-lg">
+    <div className="flex w-auto px-5 ">
+      <div className="flex w-full md:w-[60%] mx-auto mt-10 border rounded-lg shadow-lg">
       <div className="hidden md:block" >
         <img src={pic6} className=" w-[500px] h-[600px] rounded-l-lg " alt="login pic"/>
       </div>
@@ -61,7 +61,7 @@ const Login = () => {
         onSubmit={handleLogin}
         className="flex flex-col px-5 py-5 mt-2 bg-white md:mt-10 "
       >
-        <label>Username</label>
+        <label>Email</label>
         <input
           type="email"
           name="email"

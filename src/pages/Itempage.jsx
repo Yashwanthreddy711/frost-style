@@ -15,9 +15,9 @@ const Itempage = () => {
 
     <Navbar/>
     <Cart/>
-    <div className='w-full md:w-[80%]  mx-auto md:m-20 justify-center items-center sm:flex'>
-      <div className='flex-wrap justify-center w-auto h-full gap-20 border-2 rounded-md md:p-10 md:flex'>
-        <div>
+    <div className='w-auto md:w-[60%] mt-32 mx-auto justify-center items-center flex'>
+      <div className='flex-wrap items-center justify-center h-full gap-20 border-2 rounded-md md:p-10 md:flex'>
+        <div className='flex items-center justify-center p-5 md:p-0'>
           <img src={url} className='w-[300px] h-[400px] rounded-md hover:scale-110 transition-all duration-300 ease-in-out' alt='product_image' />
         </div>
         <div className='flex flex-col items-center w-auto gap-5 '>

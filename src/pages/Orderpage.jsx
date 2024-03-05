@@ -11,7 +11,7 @@ const Orderpage = () => {
   const [address, setAddress] = useState('');
   const cartItems=useSelector((state)=>state.cart.cart);
   const checkPayment=async()=>{
-    const stripe = await loadStripe('pk_test_51Oej5MSCLWGe4NcCzy54W3doCvNYKfS0A9Mrlqkg0AvhwNCjjKZ0phSIN35fgwQziJQE19c5aP0WNPRRz2niotqx00ZwlFfUNn');
+    const stripe = await loadStripe("pk_test_51Oej5MSCLWGe4NcCzy54W3doCvNYKfS0A9Mrlqkg0AvhwNCjjKZ0phSIN35fgwQziJQE19c5aP0WNPRRz2niotqx00ZwlFfUNn");
     const body={
       products:cartItems,
       username:firstName,

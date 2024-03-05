@@ -13,17 +13,17 @@ const Home = () => {
         <Navbar/>
         <Cart/>
         
-        <div className='justify-between w-full h-full ml-10 md:flex md:px-20 md:gap-60 '>
-          <div className='py-5 md:px-5 md:w-1/2 '>
+        <div className='justify-between w-full h-full ml-5 md:flex md:px-20 md:gap-60 '>
+          <div className='w-full py-5 md:px-5 md:w-1/2 '>
             
-            <h1 className='mt-20 text-5xl font-bold tracking-tighter '>EXPERIENCE THE HEIGHT OF THE FASHION WITH OUR EXQUISITE DESIGNER PIECES </h1>
-            <p className='mt-5 '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia non, quibusdam animi itaque sequi fugiat eligendi suscipit magnam corporis possimus, voluptatibus optio repellat ipsam? Dolorum eius veritatis nulla pariatur neque dolores sint numquam quibusdam omnis, officia perspiciatis mollitia modi repellendus sapiente. Alias, consectetur repudiandae.</p>
+            <h1 className='pr-5 mt-20 text-5xl font-bold tracking-tighter '>EXPERIENCE THE HEIGHT OF THE FASHION WITH OUR EXQUISITE DESIGNER PIECES </h1>
+            <p className='pr-5 mt-5 '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia non, quibusdam animi itaque sequi fugiat eligendi suscipit magnam corporis possimus, voluptatibus optio repellat ipsam? Dolorum eius veritatis nulla pariatur neque dolores sint numquam quibusdam omnis, officia perspiciatis mollitia modi repellendus sapiente. Alias, consectetur repudiandae.</p>
 
             <Link to="/mens-wear">
             <button className='flex items-center w-auto text-[14px] px-2 md:text-[16px] h-8 mt-10 text-white bg-black rounded-md md:px-5'>Discover Our Products</button>
            </Link>
           </div>
-          <div className='hidden gap-5 md:flex md:w-2/3 md:block'>
+          <div className='hidden gap-5 md:flex md:w-2/3 '>
             <div className='flex flex-col items-center justify-center w-1/3 gap-20 '>
                 <div>
                     <img src={pic1} className='h-48 rounded-full w-30' alt='pic'/>

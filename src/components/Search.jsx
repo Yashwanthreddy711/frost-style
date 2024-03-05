@@ -10,7 +10,7 @@ const Search = ({onInputChange}) => {
   };
   
   return (
-    <div className='flex justify-center w-full mt-10 text-red-500'>
+    <div className='z-50 flex justify-center w-full mt-20 text-red-500 bg-white '>
         <input className='h-[20px] w-[80%] md:h-[40px] rounded-md p-4  md:pl-10 border-black border-2 text-base md:text-lg ' onChange={handleInputChange} value={searchValue} placeholder='Enter items to search'/>
     </div>
   )
