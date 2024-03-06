@@ -9,7 +9,7 @@ import Cart from "../components/Cart";
 // import pic4 from '../assets/pic4.jpg'
 const Home = () => {
   return (
-    <div className="w-full mt-0 ">
+    <div className="w-full mt-0 overflow-x-hidden">
       <Navbar />
       <Cart />
 
