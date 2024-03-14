@@ -245,7 +245,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20231213/g6ci/6579c25eddf7791519cabe88/-473Wx593H-443026707-jetblack-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:999,
-        desc:"Women Fitted Zip-Front Hooded Jacket",
+        desc:"Women Fitted Zip-Front Hooded Black Jacket",
         tags:"Jackets"
     },
     {
@@ -253,7 +253,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20231209/dEW2/65737ec8ddf7791519be3054/-473Wx593H-466868168-blue-MODEL5.jpg',
         name:"SHOWOFF",
         price:1889,
-        desc:"Women Blouson Jacket with Button-Closure",
+        desc:"Women Blouson Blue Jacket with Button-Closure",
         tags:"Jackets"
     },
     {
@@ -261,7 +261,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20231016/5KGT/652d5d2eddf7791519422389/-473Wx593H-443014673-beige-MODEL.jpg',
         name:"FIG",
         price:1724,
-        desc:"Women Regular Fit Jacket",
+        desc:"Women Regular Fit White Jacket",
         tags:"Jackets"
     },
     {
@@ -269,7 +269,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230607/2p5H/6480a92e42f9e729d72e03fd/-473Wx593H-443016040-darkblue-MODEL.jpg',
         name:"DNMX",
         price:950,
-        desc:"Trucker Jacket with Flap Pockets",
+        desc:"Trucker Blue Jacket with Flap Pockets",
         tags:"Jackets"
     },
     {
@@ -277,7 +277,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230609/4GVV/648359c242f9e729d73606c6/-473Wx593H-443015948-ltblue-MODEL2.jpg',
         name:"DNMX",
         price:950,
-        desc:"Lightly Washed Denim Jacket with Button Closure",
+        desc:"Lightly Washed Denim Blue Jacket with Button Closure",
         tags:"Jackets"
     },
     {
@@ -285,7 +285,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230904/ANOD/64f60268ddf7791519961046/-473Wx593H-443015344-brown-MODEL.jpg',
         name:"BETTER THINK",
         price:458,
-        desc:"Relaxed Fit Zip-Front Jacket",
+        desc:"Relaxed Fit Zip-Front Brown Jacket",
         tags:"Jackets"
     },
     {
@@ -293,7 +293,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20220331/0Ui3/6244ad1df997dd03e23e14c2/-473Wx593H-441297253-black-MODEL6.jpg',
         name:"ISCENERY BY VERO MODA",
         price:625,
-        desc:"Zip-Front Bomber Jacket",
+        desc:"Zip-Front Bomber Black Jacket",
         tags:"Jackets"
     },
     {
@@ -301,7 +301,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20231209/UBoK/65737f2dafa4cf41f5c0c41e/-473Wx593H-466868158-navy-MODEL.jpg',
         name:"SHOWOFF",
         price:1564,
-        desc:"Women Blouson Jacket with Button-Closure",
+        desc:"Women Blouson Blue Jacket with Button-Closure",
         tags:"Jackets"
     },
     { 
@@ -309,7 +309,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230503/B982/64523993d55b7d0c6392704e/-473Wx593H-443013506-lightyellow-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:1000,
-        desc:"Zip-Front Puffer Jacket",
+        desc:"Zip-Front Puffer Yellow Jacket",
         tags:"Jackets"
     },
     {
@@ -317,7 +317,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230904/FGQZ/64f6035cafa4cf41f5a30433/-473Wx593H-443013831-black-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:689,
-        desc:"Striped Zip-Front Fitted Jacket",
+        desc:"Striped Zip-Front Fitted Black Jacket",
         tags:"Jackets"
     },
     {
@@ -325,7 +325,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230508/KJa7/6458d3f9d55b7d0c639ae45e/-473Wx593H-443013783-coral-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:509,
-        desc:"Zip-Front Hooded Jacket",
+        desc:"Zip-Front Hooded Pink Jacket",
         tags:"Jackets"
     },
     {
@@ -333,7 +333,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230914/wSiC/65032c9dafa4cf41f5e53e73/-473Wx593H-443014001-maroon-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:509,
-        desc:"Zip-Front Relaxed Fit Jacket",
+        desc:"Zip-Front Relaxed Fit Maroon Jacket",
         tags:"Jackets",
 
     },
@@ -342,7 +342,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230904/ANOD/64f60268ddf7791519961046/-473Wx593H-443015344-brown-MODEL.jpg',
         name:"DNMX",
         price:458,
-        desc:"Relaxed Fit Zip-Front Jacket",
+        desc:"Relaxed Fit Zip-Front Brown Jacket",
         tags:"Jackets",
 
     },
@@ -351,7 +351,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230703/FOKd/64a2e6aca9b42d15c9312a68/-473Wx593H-443013503-purple-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:458,
-        desc:"Jacket with Placement Embroidered Logo",
+        desc:"Purple Jacket with Placement Embroidered Logo",
         tags:"Jackets",
 
     },
@@ -360,7 +360,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20240112/xUvb/65a155f574cb305fe014ec78/-473Wx593H-443012358-ltpink-MODEL.jpg',
         name:"UMBRO",
         price:1200,
-        desc:"Women Quilted Relaxed Fit Jacket",
+        desc:"Women Quilted Relaxed Fit Pink Jacket",
         tags:"Jackets",
 
     },
@@ -369,7 +369,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230530/afAM/6475ea0ed55b7d0c6327c2fe/-473Wx593H-443012549-ltblue-MODEL.jpg',
         name:"RIO",
         price:815,
-        desc:"Washed Denim Jacket",
+        desc:"Washed Denim Blue Jacket",
         tags:"Jackets",
 
     },
@@ -379,7 +379,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20220924/6Emw/632e2d4bf997dd1f8d1ace88/-473Wx593H-465049901-navy-MODEL.jpg',
         name:"BELLE FILLE",
         price:1410,
-        desc:"Single-Breasted Belted Peacoat",
+        desc:"Single-Breasted Belted Blue Peacoat",
         tags:"Jackets",
 
     },
@@ -389,7 +389,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230607/Y1mS/648098bed55b7d0c6356ded7/-473Wx593H-443013305-lavender-MODEL.jpg',
         name:"RIO",
         price:815,
-        desc:"Trucker Jacket with Flap Pockets",
+        desc:"Trucker Pink Jacket with Flap Pockets",
         tags:"Jackets",
 
     },
@@ -399,7 +399,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230530/bHGT/6475ea8ed55b7d0c6327c589/-473Wx593H-443012551-blue-MODEL.jpg',
         name:"RIO",
         price:800,
-        desc:"Denim Jacket with Frayed Hem",
+        desc:"Denim Blue Jacket with Frayed Hem",
         tags:"Jackets",
 
     },
@@ -408,7 +408,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230831/S2K0/64f0b5bbafa4cf41f59b5534/-473Wx593H-442253318-pink-MODEL3.jpg',
         name:"GAP",
         price:2800,
-        desc:"LoveShackFancy Denim Jacket With Patch Pockets And Cuffed Sleeves",
+        desc:"LoveShackFancy Denim Pink Jacket With Patch Pockets And Cuffed Sleeves",
         tags:"Jackets",
 
     },
@@ -417,7 +417,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230919/A4dA/6508a6efddf7791519e3dcca/-473Wx593H-466599920-beige-MODEL.jpg',
         name:"ONLY",
         price:2580,
-        desc:"Quilted Zip-Front Hooded Jacket",
+        desc:"Quilted Zip-Front Hooded White Jacket",
         tags:"Jackets",
 
     },
@@ -426,7 +426,7 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230922/1ORq/650db5f1afa4cf41f5ff0399/-473Wx593H-443015770-mediumblue-MODEL.jpg',
         name:"DNMX",
         price:962,
-        desc:"Lightly Washed Denim Jacket",
+        desc:"Lightly Washed Denim Blue Jacket",
         tags:"Jackets",
 
     },
@@ -435,72 +435,80 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230713/LDpe/64b030f6eebac147fc6ab65d/-473Wx593H-443016783-stone-MODEL.jpg',
         name:"DNMX",
         price:622,
-        desc:"Jacquard Knit Button-Front Bomber Jacket",
-        tags:"Sweaters"
+        desc:"Jacquard Knit Button-Front Bomber Brown Jacket",
+        tags:"Jackets",
+
     },
     {
         id:54,
         url:'https://assets.ajio.com/medias/sys_master/root/20230713/8dzy/64b03c03eebac147fc6b27b5/-473Wx593H-443014632-olive-MODEL.jpg',
         name:"DNMX",
         price:750,
-        desc:"Cotton Utility Jacket",
-        tags:"Sweaters"
+        desc:"Cotton Utility Green Jacket",
+        tags:"Jackets",
+
     },
     {
         id:55,
         url:'https://assets.ajio.com/medias/sys_master/root/20231211/1Rix/657713edafa4cf41f5c5294f/-473Wx593H-466872737-navy-MODEL.jpg',
         name:"FABLE STREET",
         price:7995,
-        desc:"Women Regular Fit Lapel Trench Coat",
-        tags:"Sweaters"
+        desc:"Women Regular Fit Lapel Trench Blue Coat",
+        tags:"Jackets",
+
     },
     {
         id:56,
         url:'https://assets.ajio.com/medias/sys_master/root/20220413/sKcL/6255d846f997dd03e259f5f3/-473Wx593H-441135884-jetblack-MODEL2.jpg',
         name:"PERFORMAX",
         price:699,
-        desc:"Fastdry Panelled Training Jacket with Mask",
-        tags:"Sweaters"
+        desc:"Fastdry Panelled Training Black Jacket with Mask",
+        tags:"Jackets",
+
     },
     {
         id:57,
         url:'https://assets.ajio.com/medias/sys_master/root/20230816/0v07/64dce5f8a9b42d15c9b22b41/-473Wx593H-442110563-mediumblue-MODEL2.jpg',
         name:"GAP",
         price:1800,
-        desc:"Lightly Washed Denim Jacket",
-        tags:"Sweaters"
+        desc:"Lightly Washed Denim Blue Jacket",
+        tags:"Jackets",
+
     },
     {
         id:58,
         url:'https://assets.ajio.com/medias/sys_master/root/20230503/3ykE/64523ab2d55b7d0c639274a4/-473Wx593H-443013502-pink-MODEL.jpg',
         name:"TEAMSPIRIT",
         price:1172,
-        desc:"Quilted Puffer Jacket",
-        tags:"Sweaters"
+        desc:"Quilted Puffer Pink Jacket",
+        tags:"Jackets",
+
     },
     {
         id:59,
         url:'https://assets.ajio.com/medias/sys_master/root/20230713/QJTp/64b03bf9eebac147fc6b26aa/-473Wx593H-443018331-pink-MODEL.jpg',
         name:"FIG",
         price:2966,
-        desc:"Trench Coat with Insert Pockets",
-        tags:"Sweaters"
+        desc:"Trench Pink Coat with Insert Pockets",
+        tags:"Jackets",
+
     },
     {
         id:60,
         url:'https://assets.ajio.com/medias/sys_master/root/20230607/Y1mS/648098bed55b7d0c6356ded7/-473Wx593H-443013305-lavender-MODEL.jpg',
         name:"RIO",
         price:815,
-        desc:"Trucker Jacket with Flap Pockets",
-        tags:"Sweaters"
+        desc:"Trucker Pink Jacket with Flap Pockets",
+        tags:"Jackets",
     },
     {
         id:61,
         url:'https://assets.ajio.com/medias/sys_master/root/20221212/lY36/63976e03aeb269659ce52496/-473Wx593H-441758614-multi-MODEL.jpg',
         name:"MATCHITT",
         price:815,
-        desc:"Trucker Jacket with Flap Pockets",
-        tags:"Sweaters"
+        desc:"Women Floral Print Scarf with Tassels",
+        tags:"Jackets",
+
     },
     {
         id:62,
@@ -672,18 +680,58 @@ const womendata=[
     },
     {
         id:84,
-        url:'https://assets.ajio.com/medias/sys_master/root/20230919/DB0t/6509b9cfafa4cf41f5f18eeb/-473Wx593H-443020501-grey-MODEL.jpg',
-        name:"TEAMSPIRIT",
-        price:892,
-        desc:"Gradation Splatter Regular Fit Grey Pullover",
+        url:'https://assets.ajio.com/medias/sys_master/root/20230403/F9pf/642ae54e711cf97ba705d926/-473Wx593H-442076731-multi-MODEL.jpg',
+        name:"MATCHITT",
+        price:359,
+        desc:"Women Floral Print Scarf with Tassels",
         tags:"Sweaters"
     },
     {
         id:85,
-        url:'https://assets.ajio.com/medias/sys_master/root/20231213/YfLd/6579c696ddf7791519cad44f/-473Wx593H-441700710-navy-MODEL2.jpg',
-        name:"INDIAN TERRAIN",
-        price:892,
-        desc:"Men Regular Fit V-Neck Blue Pullover",
+        url:'https://assets.ajio.com/medias/sys_master/root/20230306/oQM8/64058a68aeb26924e3a415ed/-473Wx593H-442076719-blue-MODEL.jpg',
+        name:"MATCHITT",
+        price:539,
+        desc:"Women Embroidered Scarf with Tassels",
+        tags:"Sweaters"
+    },
+    {
+        id:86,
+        url:'https://assets.ajio.com/medias/sys_master/root/20221201/mRHK/63884b00f997ddfdbdaf6b70/-473Wx593H-441758612-blue-MODEL.jpg',
+        name:"MATCHITT",
+        price:449,
+        desc:"Women Embroidered Scarf with Tassels",
+        tags:"Sweaters"
+    },
+    {
+        id:87,
+        url:'https://assets.ajio.com/medias/sys_master/root/20221201/PrrI/63884bcff997ddfdbdaf6daa/-473Wx593H-441758639-pink-MODEL.jpg',
+        name:"MATCHITT",
+        price:359,
+        desc:"Women Embroidered Scarf with Tassels",
+        tags:"Sweaters"
+    },
+    {
+        id:88,
+        url:'https://assets.ajio.com/medias/sys_master/root/20221118/VzuD/63772690f997ddfdbd82d4df/-473Wx593H-441758623-multi-MODEL.jpg',
+        name:"MATCHITT",
+        price:359,
+        desc:"Women Embroidered Scarf with Tassels",
+        tags:"Sweaters"
+    },
+    {
+        id:89,
+        url:'https://assets.ajio.com/medias/sys_master/root/20221130/30rd/63878e6df997ddfdbdad6611/-473Wx593H-441758621-ltbrown-MODEL.jpg',
+        name:"MATCHITT",
+        price:539,
+        desc:"Women Embroidered Scarf with Tassels",
+        tags:"Sweaters"
+    },
+    {
+        id:90,
+        url:'https://assets.ajio.com/medias/sys_master/root/20221212/hgX3/63974992aeb269659ce367f1/-473Wx593H-441758606-white-MODEL.jpg',
+        name:"MATCHITT",
+        price:539,
+        desc:"Women Embroidered Scarf with Tassels",
         tags:"Sweaters"
     }
     

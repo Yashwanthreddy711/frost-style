@@ -97,7 +97,7 @@ const Login = () => {
         </button>
         <p className="flex gap-2 -mt-1 text-xs text-gray-600">
           <span>Or</span>
-          <Link to="/" className="hover:text-black">
+          <Link to="/signup" className="hover:text-black">
             Create your account
           </Link>
         </p>
