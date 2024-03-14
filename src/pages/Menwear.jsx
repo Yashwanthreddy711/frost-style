@@ -24,7 +24,7 @@ const Menwear = () => {
   const [loading, setLoading] = useState(false);
   //const [searchInput, setSearchInput] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
-  const [sliderinput, setsliderinput] = useState(maxi);
+  const [sliderinput, setsliderinput] = useState(500);
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
