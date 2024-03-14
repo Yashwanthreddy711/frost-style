@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Search from "../components/Search";
-import { data } from "../Mendata";
+import { data } from "../Womendata";
 import Itemcard from "../components/Itemcard";
 import { PropagateLoader } from "react-spinners";
 import Cart from "../components/Cart";
@@ -20,7 +20,7 @@ const Menwear = () => {
       mini = data[i].price;
     }
   }
-  const [category, setCategory] = useState("Jackets");
+  const [category, setCategory] = useState("Sweaters");
   const [loading, setLoading] = useState(false);
   //const [searchInput, setSearchInput] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
@@ -56,17 +56,6 @@ const Menwear = () => {
 
         <div className="flex gap-1 md:gap-2">
         <button
-          id="Jackets"
-          onClick={handlecategory}
-          className={`w-20 h-10 text-sm text-center border-black rounded-md md:w-40 md:h-10 border-1 ${
-            category === "Jackets"
-              ? "bg-black text-white"
-              : "bg-slate-200 hover:text-white hover:bg-black"
-          }`}
-        >
-          Sweaters
-        </button>
-        <button
           id="Sweaters"
           onClick={handlecategory}
           className={`w-20 h-10 text-sm text-center border-black rounded-md md:w-40 md:h-10 border-1 ${
@@ -75,13 +64,24 @@ const Menwear = () => {
               : "bg-slate-200 hover:text-white hover:bg-black"
           }`}
         >
-          Coats
+          Sweaters
         </button>
         <button
-          id="Sweatshirt"
+          id="Jackets"
           onClick={handlecategory}
           className={`w-20 h-10 text-sm text-center border-black rounded-md md:w-40 md:h-10 border-1 ${
-            category === "Sweatshirt"
+            category === "Jackets"
+              ? "bg-black text-white"
+              : "bg-slate-200 hover:text-white hover:bg-black"
+          }`}
+        >
+          Jackets
+        </button>
+        <button
+          id="Scarves"
+          onClick={handlecategory}
+          className={`w-20 h-10 text-sm text-center border-black rounded-md md:w-40 md:h-10 border-1 ${
+            category === "Scarves"
               ? "bg-black text-white"
               : "bg-slate-200 hover:text-white hover:bg-black"
           }`}

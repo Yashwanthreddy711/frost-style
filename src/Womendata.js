@@ -506,8 +506,8 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20221212/lY36/63976e03aeb269659ce52496/-473Wx593H-441758614-multi-MODEL.jpg',
         name:"MATCHITT",
         price:815,
-        desc:"Women Floral Print Scarf with Tassels",
-        tags:"Jackets",
+        desc:"Women Floral Print White Scarf with Tassels",
+        tags:"Scarves",
 
     },
     {
@@ -515,80 +515,80 @@ const womendata=[
         url:'https://assets.ajio.com/medias/sys_master/root/20230112/qlIn/63c032e1f997dd708e032dae/-473Wx593H-441777300-multi-MODEL.jpg',
         name:"MATCHITT",
         price:359,
-        desc:"Women Floral Print Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Floral Print Red Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:63,
         url:'https://assets.ajio.com/medias/sys_master/root/20230321/ie6n/6419c6e8f997dde6f423d6c6/-473Wx593H-441777242-black-MODEL.jpg',
         name:"MATCHITT",
         price:400,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Black Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:64,
         url:'https://assets.ajio.com/medias/sys_master/root/20230306/sZFW/6406076bf997dde6f4e06324/-473Wx593H-441758167-offwhite-MODEL.jpg',
         name:"MATCHITT",
         price:199,
-        desc:"Women Scarf with Tasseled Hem",
-        tags:"Sweaters"
+        desc:"Women White Scarf with Tasseled Hem",
+        tags:"Scarves",
     },
     {
         id:65,
         url:'https://assets.ajio.com/medias/sys_master/root/20230403/0l54/642aaac9907deb497ac5e100/-473Wx593H-442076736-multi-MODEL.jpg',
         name:"MATCHITT",
         price:359,
-        desc:"Women Floral Print Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Floral Print Ash Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:66,
         url:'https://assets.ajio.com/medias/sys_master/root/20221201/Fsaw/63884bebf997ddfdbdaf6fb1/-473Wx593H-441758633-multi-MODEL.jpg',
         name:"MATCHITT",
         price:449,
-        desc:"MATCHITT",
-        tags:"Sweaters"
+        desc:"Women Floral Print Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:67,
         url:'https://assets.ajio.com/medias/sys_master/root/20230112/xtmW/63bfb013f997dd708e00fd1f/-473Wx593H-441777244-beige-MODEL.jpg',
         name:"MATCHITT",
         price:400,
-        desc:"Women Floral Embroidered Scarf",
-        tags:"Sweaters"
+        desc:"Women Floral Embroidered Brown Scarf",
+        tags:"Scarves",
     },
     {
         id:68,
         url:'https://assets.ajio.com/medias/sys_master/root/20221116/oUIM/6373e041f997ddfdbd775202/-473Wx593H-441257656-orange-MODEL.jpg',
         name:"SHYLA",
         price:199,
-        desc:"Striped Scarf with Fringes",
-        tags:"Sweaters"
+        desc:"Striped Orange Scarf with Fringes",
+        tags:"Scarves",
     },
     {
         id:69,
         url:'https://assets.ajio.com/medias/sys_master/root/20230403/ARxj/642aebec711cf97ba705ffaa/-473Wx593H-442076732-multi-MODEL.jpg',
         name:"MATCHITT",
         price:359,
-        desc:"Women Floral Print Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Floral Print White Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:70,
         url:'https://assets.ajio.com/medias/sys_master/root/20230321/K6aM/6419cca8f997dde6f423f864/-473Wx593H-441777270-ltblue-MODEL.jpg',
         name:"MATCHITT",
         price:400,
-        desc:"Women Floral Print Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Floral Print Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:71,
         url:'https://assets.ajio.com/medias/sys_master/root/20230321/5dRy/6419c8d0aeb26924e3e92211/-473Wx593H-441777275-multi-MODEL.jpg',
         name:"MATCHITT",
         price:400,
-        desc:"Women Printed Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Printed Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:72,
@@ -596,7 +596,7 @@ const womendata=[
         name:"MATCHITT",
         price:359,
         desc:"Women Floral Print Scarf with Tassels",
-        tags:"Sweaters"
+        tags:"Scarves",
     },
     {
         id:73,
@@ -604,31 +604,31 @@ const womendata=[
         name:"MATCHITT",
         price:359,
         desc:"Women Printed Scarf with Tassels",
-        tags:"Sweaters"
+        tags:"Scarves",
     },
     {
         id:75,
         url:'https://assets.ajio.com/medias/sys_master/root/20221201/z2kc/63884bebaeb269659cc6e033/-473Wx593H-441758621-pink-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Textured Scarf with Tassel Accent",
-        tags:"Sweaters"
+        desc:"Women Textured Pink Scarf with Tassel Accent",
+        tags:"Scarves",
     },
     {
         id:76,
         url:'https://assets.ajio.com/medias/sys_master/root/20230321/T0Lg/6419cb23f997dde6f423eeb2/-473Wx593H-441777243-peach-MODEL.jpg',
         name:"MATCHITT",
         price:400,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Brown Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:77,
         url:'https://assets.ajio.com/medias/sys_master/root/20230321/oan0/6419cf78aeb26924e3e9411c/-473Wx593H-441777259-blue-MODEL.jpg',
         name:"MATCHITT",
         price:400,
-        desc:"Women Tie & Dye Print Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Tie & Dye Print Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:78,
@@ -636,47 +636,47 @@ const womendata=[
         name:"MATCHITT",
         price:319,
         desc:"Women Floral Print Scarf",
-        tags:"Sweaters"
+        tags:"Scarves",
     },
     {
         id:79,
         url:'https://assets.ajio.com/medias/sys_master/root/20221130/PKDR/63878aa9aeb269659cc4c518/-473Wx593H-441758621-navy-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Textured Scarf with Tassel Accent",
-        tags:"Sweaters"
+        desc:"Women Textured Navy Scarf with Tassel Accent",
+        tags:"Scarves",
     },
     {
         id:80,
         url:'https://assets.ajio.com/medias/sys_master/root/20221115/alc1/6373b7fcf997ddfdbd76719f/-473Wx593H-441758634-offwhite-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Printed Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Printed White Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:81,
         url:'https://assets.ajio.com/medias/sys_master/root/20230908/TU35/64fb0837afa4cf41f5d29943/-473Wx593H-443023961-offwhite-MODEL.jpg',
         name:"SVRNAA",
         price:799,
-        desc:"Heart Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Heart Embroidered White Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:82,
         url:'https://assets.ajio.com/medias/sys_master/root/20221201/cvse/63884bd0aeb269659cc6de50/-473Wx593H-441758622-blue-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:83,
         url:'https://assets.ajio.com/medias/sys_master/root/20230403/O0Al/642aaacf907deb497ac5e1ac/-473Wx593H-442076735-grey-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Grey Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:84,
@@ -684,31 +684,31 @@ const womendata=[
         name:"MATCHITT",
         price:359,
         desc:"Women Floral Print Scarf with Tassels",
-        tags:"Sweaters"
+        tags:"Scarves",
     },
     {
         id:85,
         url:'https://assets.ajio.com/medias/sys_master/root/20230306/oQM8/64058a68aeb26924e3a415ed/-473Wx593H-442076719-blue-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:86,
         url:'https://assets.ajio.com/medias/sys_master/root/20221201/mRHK/63884b00f997ddfdbdaf6b70/-473Wx593H-441758612-blue-MODEL.jpg',
         name:"MATCHITT",
         price:449,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Blue Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:87,
         url:'https://assets.ajio.com/medias/sys_master/root/20221201/PrrI/63884bcff997ddfdbdaf6daa/-473Wx593H-441758639-pink-MODEL.jpg',
         name:"MATCHITT",
         price:359,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered Pink Scarf with Tassels",
+        tags:"Scarves",
     },
     {
         id:88,
@@ -716,7 +716,7 @@ const womendata=[
         name:"MATCHITT",
         price:359,
         desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        tags:"Scarves",
     },
     {
         id:89,
@@ -724,15 +724,15 @@ const womendata=[
         name:"MATCHITT",
         price:539,
         desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        tags:"Scarves",
     },
     {
         id:90,
         url:'https://assets.ajio.com/medias/sys_master/root/20221212/hgX3/63974992aeb269659ce367f1/-473Wx593H-441758606-white-MODEL.jpg',
         name:"MATCHITT",
         price:539,
-        desc:"Women Embroidered Scarf with Tassels",
-        tags:"Sweaters"
+        desc:"Women Embroidered White Scarf with Tassels",
+        tags:"Scarves",
     }
     
 
@@ -748,7 +748,7 @@ function shuffleArray(array) {
     return array;
 }
 
-export const data = shuffleArray(basicdata);
+export const data = shuffleArray(womendata);
 
 
 
