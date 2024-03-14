@@ -6,8 +6,8 @@ import { loginUser } from "../redux/Slices/AuthSlice";
 import toast from "react-hot-toast";
 // import pic6 from '../assets/pic6.jpg'
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("admin1@gmail.com");
+  const [password, setPassword] = useState("admin");
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -27,7 +27,7 @@ const Login = () => {
         navigate("/home");
       } else {
         toast.error(data.message);
-        navigate("/login");
+        navigate("/signup");
       }
     } catch (error) {
       // Handle axios error and display a toast message

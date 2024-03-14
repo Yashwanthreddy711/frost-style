@@ -22,7 +22,7 @@ const Signup = () => {
     const data = await res.data;
     if (res.status === 200) {
       toast.success(data.message);
-      navigate("/login");
+      navigate("/");
     } else if (res.status === 400 || res.status === 500) {
       toast.error(data.message);
     }
